@@ -1,0 +1,485 @@
+2016-08-26 00:14:50,717 - INFO - start training
+2016-08-26 00:14:50,718 - INFO - collecting all words and their counts
+2016-08-26 00:14:50,740 - INFO - PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2016-08-26 00:15:01,695 - INFO - PROGRESS: at sentence #10000, processed 1706992 words, keeping 76334 word types
+2016-08-26 00:15:12,622 - INFO - PROGRESS: at sentence #20000, processed 3412553 words, keeping 112571 word types
+2016-08-26 00:15:23,638 - INFO - PROGRESS: at sentence #30000, processed 5130137 words, keeping 141159 word types
+2016-08-26 00:15:27,487 - INFO - collected 149617 word types from a corpus of 5729114 raw words and 33547 sentences
+2016-08-26 00:15:27,627 - INFO - min_count=25 retains 13884 unique words (drops 135733)
+2016-08-26 00:15:27,627 - INFO - min_count leaves 5327519 word corpus (92% of original 5729114)
+2016-08-26 00:15:27,690 - INFO - deleting the raw counts dictionary of 149617 items
+2016-08-26 00:15:27,707 - INFO - sample=0 downsamples 0 most-common words
+2016-08-26 00:15:27,707 - INFO - downsampling leaves estimated 5327519 word corpus (100.0% of prior 5327519)
+2016-08-26 00:15:27,707 - INFO - estimated required memory for 13884 words and 500 dimensions: 65254800 bytes
+2016-08-26 00:15:27,721 - INFO - constructing a huffman tree from 13884 words
+2016-08-26 00:15:28,139 - INFO - built huffman tree with maximum node depth 18
+2016-08-26 00:15:28,142 - INFO - resetting layer weights
+2016-08-26 00:15:28,488 - INFO - training model with 1 workers on 13884 vocabulary and 500 features, using sg=1 hs=1 sample=0 and negative=0
+2016-08-26 00:15:28,488 - INFO - expecting 33547 examples, matching count from corpus used for vocabulary survey
+2016-08-26 00:15:28,605 - DEBUG - putting job #0 in the queue at alpha 0.02500
+2016-08-26 00:15:28,746 - DEBUG - putting job #1 in the queue at alpha 0.02493
+2016-08-26 00:15:28,858 - DEBUG - putting job #2 in the queue at alpha 0.02485
+2016-08-26 00:15:28,982 - DEBUG - putting job #3 in the queue at alpha 0.02478
+2016-08-26 00:15:29,241 - DEBUG - putting job #4 in the queue at alpha 0.02470
+2016-08-26 00:15:29,686 - INFO - PROGRESS: at 0.60% examples, 28062 words/s
+2016-08-26 00:15:29,799 - DEBUG - putting job #5 in the queue at alpha 0.02463
+2016-08-26 00:15:30,267 - DEBUG - putting job #6 in the queue at alpha 0.02455
+2016-08-26 00:15:30,688 - INFO - PROGRESS: at 1.19% examples, 30087 words/s
+2016-08-26 00:15:30,812 - DEBUG - putting job #7 in the queue at alpha 0.02448
+2016-08-26 00:15:31,360 - DEBUG - putting job #8 in the queue at alpha 0.02441
+2016-08-26 00:15:31,695 - INFO - PROGRESS: at 1.79% examples, 30632 words/s
+2016-08-26 00:15:31,799 - DEBUG - putting job #9 in the queue at alpha 0.02433
+2016-08-26 00:15:32,249 - DEBUG - putting job #10 in the queue at alpha 0.02426
+2016-08-26 00:15:32,810 - DEBUG - putting job #11 in the queue at alpha 0.02418
+2016-08-26 00:15:33,259 - INFO - PROGRESS: at 2.68% examples, 31337 words/s
+2016-08-26 00:15:33,363 - DEBUG - putting job #12 in the queue at alpha 0.02411
+2016-08-26 00:15:33,816 - DEBUG - putting job #13 in the queue at alpha 0.02404
+2016-08-26 00:15:34,237 - DEBUG - putting job #14 in the queue at alpha 0.02396
+2016-08-26 00:15:34,739 - INFO - PROGRESS: at 3.58% examples, 31746 words/s
+2016-08-26 00:15:34,857 - DEBUG - putting job #15 in the queue at alpha 0.02389
+2016-08-26 00:15:35,282 - DEBUG - putting job #16 in the queue at alpha 0.02381
+2016-08-26 00:15:35,764 - DEBUG - putting job #17 in the queue at alpha 0.02374
+2016-08-26 00:15:36,169 - INFO - PROGRESS: at 4.47% examples, 31861 words/s
+2016-08-26 00:15:36,280 - DEBUG - putting job #18 in the queue at alpha 0.02366
+2016-08-26 00:15:36,789 - DEBUG - putting job #19 in the queue at alpha 0.02359
+2016-08-26 00:15:37,267 - DEBUG - putting job #20 in the queue at alpha 0.02352
+2016-08-26 00:15:37,704 - INFO - PROGRESS: at 5.37% examples, 32011 words/s
+2016-08-26 00:15:37,828 - DEBUG - putting job #21 in the queue at alpha 0.02344
+2016-08-26 00:15:38,283 - DEBUG - putting job #22 in the queue at alpha 0.02337
+2016-08-26 00:15:38,817 - DEBUG - putting job #23 in the queue at alpha 0.02329
+2016-08-26 00:15:39,116 - INFO - PROGRESS: at 6.26% examples, 32065 words/s
+2016-08-26 00:15:39,230 - DEBUG - putting job #24 in the queue at alpha 0.02322
+2016-08-26 00:15:39,748 - DEBUG - putting job #25 in the queue at alpha 0.02314
+2016-08-26 00:15:40,162 - DEBUG - putting job #26 in the queue at alpha 0.02307
+2016-08-26 00:15:40,536 - INFO - PROGRESS: at 7.15% examples, 32095 words/s
+2016-08-26 00:15:40,646 - DEBUG - putting job #27 in the queue at alpha 0.02300
+2016-08-26 00:15:41,115 - DEBUG - putting job #28 in the queue at alpha 0.02292
+2016-08-26 00:15:41,543 - INFO - PROGRESS: at 7.75% examples, 32147 words/s
+2016-08-26 00:15:41,673 - DEBUG - putting job #29 in the queue at alpha 0.02285
+2016-08-26 00:15:42,057 - DEBUG - putting job #30 in the queue at alpha 0.02277
+2016-08-26 00:15:42,546 - DEBUG - putting job #31 in the queue at alpha 0.02270
+2016-08-26 00:15:42,881 - INFO - PROGRESS: at 8.64% examples, 32170 words/s
+2016-08-26 00:15:43,025 - DEBUG - putting job #32 in the queue at alpha 0.02262
+2016-08-26 00:15:43,538 - DEBUG - putting job #33 in the queue at alpha 0.02255
+2016-08-26 00:15:43,969 - DEBUG - putting job #34 in the queue at alpha 0.02248
+2016-08-26 00:15:44,514 - INFO - PROGRESS: at 9.54% examples, 32208 words/s
+2016-08-26 00:15:44,613 - DEBUG - putting job #35 in the queue at alpha 0.02240
+2016-08-26 00:15:45,214 - DEBUG - putting job #36 in the queue at alpha 0.02233
+2016-08-26 00:15:45,573 - INFO - PROGRESS: at 10.14% examples, 32242 words/s
+2016-08-26 00:15:45,677 - DEBUG - putting job #37 in the queue at alpha 0.02225
+2016-08-26 00:15:46,123 - DEBUG - putting job #38 in the queue at alpha 0.02218
+2016-08-26 00:15:46,529 - DEBUG - putting job #39 in the queue at alpha 0.02211
+2016-08-26 00:15:46,905 - INFO - PROGRESS: at 11.03% examples, 32260 words/s
+2016-08-26 00:15:47,031 - DEBUG - putting job #40 in the queue at alpha 0.02203
+2016-08-26 00:15:47,447 - DEBUG - putting job #41 in the queue at alpha 0.02196
+2016-08-26 00:15:47,953 - DEBUG - putting job #42 in the queue at alpha 0.02188
+2016-08-26 00:15:48,276 - INFO - PROGRESS: at 11.92% examples, 32290 words/s
+2016-08-26 00:15:48,376 - DEBUG - putting job #43 in the queue at alpha 0.02181
+2016-08-26 00:15:48,914 - DEBUG - putting job #44 in the queue at alpha 0.02173
+2016-08-26 00:15:49,373 - DEBUG - putting job #45 in the queue at alpha 0.02166
+2016-08-26 00:15:49,713 - INFO - PROGRESS: at 12.82% examples, 32326 words/s
+2016-08-26 00:15:49,817 - DEBUG - putting job #46 in the queue at alpha 0.02159
+2016-08-26 00:15:50,240 - DEBUG - putting job #47 in the queue at alpha 0.02151
+2016-08-26 00:15:50,730 - DEBUG - putting job #48 in the queue at alpha 0.02144
+2016-08-26 00:15:51,097 - INFO - PROGRESS: at 13.71% examples, 32355 words/s
+2016-08-26 00:15:51,210 - DEBUG - putting job #49 in the queue at alpha 0.02136
+2016-08-26 00:15:51,651 - DEBUG - putting job #50 in the queue at alpha 0.02129
+2016-08-26 00:15:52,102 - DEBUG - putting job #51 in the queue at alpha 0.02121
+2016-08-26 00:15:52,446 - INFO - PROGRESS: at 14.61% examples, 32337 words/s
+2016-08-26 00:15:52,547 - DEBUG - putting job #52 in the queue at alpha 0.02114
+2016-08-26 00:15:53,017 - DEBUG - putting job #53 in the queue at alpha 0.02107
+2016-08-26 00:15:53,548 - DEBUG - putting job #54 in the queue at alpha 0.02099
+2016-08-26 00:15:53,981 - INFO - PROGRESS: at 15.50% examples, 32352 words/s
+2016-08-26 00:15:54,100 - DEBUG - putting job #55 in the queue at alpha 0.02092
+2016-08-26 00:15:54,492 - DEBUG - putting job #56 in the queue at alpha 0.02084
+2016-08-26 00:15:54,954 - DEBUG - putting job #57 in the queue at alpha 0.02077
+2016-08-26 00:15:55,356 - INFO - PROGRESS: at 16.39% examples, 32368 words/s
+2016-08-26 00:15:55,476 - DEBUG - putting job #58 in the queue at alpha 0.02069
+2016-08-26 00:15:55,964 - DEBUG - putting job #59 in the queue at alpha 0.02062
+2016-08-26 00:15:56,393 - DEBUG - putting job #60 in the queue at alpha 0.02055
+2016-08-26 00:15:56,813 - INFO - PROGRESS: at 17.29% examples, 32396 words/s
+2016-08-26 00:15:56,926 - DEBUG - putting job #61 in the queue at alpha 0.02047
+2016-08-26 00:15:57,418 - DEBUG - putting job #62 in the queue at alpha 0.02040
+2016-08-26 00:15:57,897 - DEBUG - putting job #63 in the queue at alpha 0.02032
+2016-08-26 00:15:58,209 - INFO - PROGRESS: at 18.18% examples, 32431 words/s
+2016-08-26 00:15:58,316 - DEBUG - putting job #64 in the queue at alpha 0.02025
+2016-08-26 00:15:58,804 - DEBUG - putting job #65 in the queue at alpha 0.02018
+2016-08-26 00:15:59,292 - DEBUG - putting job #66 in the queue at alpha 0.02010
+2016-08-26 00:15:59,615 - INFO - PROGRESS: at 19.08% examples, 32420 words/s
+2016-08-26 00:15:59,747 - DEBUG - putting job #67 in the queue at alpha 0.02003
+2016-08-26 00:16:00,178 - DEBUG - putting job #68 in the queue at alpha 0.01995
+2016-08-26 00:16:00,721 - DEBUG - putting job #69 in the queue at alpha 0.01988
+2016-08-26 00:16:01,165 - INFO - PROGRESS: at 19.97% examples, 32406 words/s
+2016-08-26 00:16:01,276 - DEBUG - putting job #70 in the queue at alpha 0.01980
+2016-08-26 00:16:01,832 - DEBUG - putting job #71 in the queue at alpha 0.01973
+2016-08-26 00:16:02,177 - INFO - PROGRESS: at 20.57% examples, 32416 words/s
+2016-08-26 00:16:02,291 - DEBUG - putting job #72 in the queue at alpha 0.01966
+2016-08-26 00:16:02,824 - DEBUG - putting job #73 in the queue at alpha 0.01958
+2016-08-26 00:16:03,183 - INFO - PROGRESS: at 21.16% examples, 32413 words/s
+2016-08-26 00:16:03,294 - DEBUG - putting job #74 in the queue at alpha 0.01951
+2016-08-26 00:16:03,848 - DEBUG - putting job #75 in the queue at alpha 0.01943
+2016-08-26 00:16:04,191 - INFO - PROGRESS: at 21.76% examples, 32405 words/s
+2016-08-26 00:16:04,312 - DEBUG - putting job #76 in the queue at alpha 0.01936
+2016-08-26 00:16:04,777 - DEBUG - putting job #77 in the queue at alpha 0.01928
+2016-08-26 00:16:05,224 - DEBUG - putting job #78 in the queue at alpha 0.01921
+2016-08-26 00:16:05,706 - INFO - PROGRESS: at 22.65% examples, 32410 words/s
+2016-08-26 00:16:05,839 - DEBUG - putting job #79 in the queue at alpha 0.01914
+2016-08-26 00:16:06,336 - DEBUG - putting job #80 in the queue at alpha 0.01906
+2016-08-26 00:16:06,797 - DEBUG - putting job #81 in the queue at alpha 0.01899
+2016-08-26 00:16:07,185 - INFO - PROGRESS: at 23.55% examples, 32418 words/s
+2016-08-26 00:16:07,300 - DEBUG - putting job #82 in the queue at alpha 0.01891
+2016-08-26 00:16:07,874 - DEBUG - putting job #83 in the queue at alpha 0.01884
+2016-08-26 00:16:08,268 - INFO - PROGRESS: at 24.15% examples, 32424 words/s
+2016-08-26 00:16:08,386 - DEBUG - putting job #84 in the queue at alpha 0.01877
+2016-08-26 00:16:08,831 - DEBUG - putting job #85 in the queue at alpha 0.01869
+2016-08-26 00:16:09,289 - DEBUG - putting job #86 in the queue at alpha 0.01862
+2016-08-26 00:16:09,730 - INFO - PROGRESS: at 25.04% examples, 32448 words/s
+2016-08-26 00:16:09,836 - DEBUG - putting job #87 in the queue at alpha 0.01854
+2016-08-26 00:16:10,311 - DEBUG - putting job #88 in the queue at alpha 0.01847
+2016-08-26 00:16:10,823 - DEBUG - putting job #89 in the queue at alpha 0.01839
+2016-08-26 00:16:11,139 - INFO - PROGRESS: at 25.93% examples, 32453 words/s
+2016-08-26 00:16:11,271 - DEBUG - putting job #90 in the queue at alpha 0.01832
+2016-08-26 00:16:11,711 - DEBUG - putting job #91 in the queue at alpha 0.01825
+2016-08-26 00:16:12,122 - DEBUG - putting job #92 in the queue at alpha 0.01817
+2016-08-26 00:16:12,541 - INFO - PROGRESS: at 26.83% examples, 32446 words/s
+2016-08-26 00:16:12,636 - DEBUG - putting job #93 in the queue at alpha 0.01810
+2016-08-26 00:16:13,176 - DEBUG - putting job #94 in the queue at alpha 0.01802
+2016-08-26 00:16:13,595 - INFO - PROGRESS: at 27.42% examples, 32468 words/s
+2016-08-26 00:16:13,713 - DEBUG - putting job #95 in the queue at alpha 0.01795
+2016-08-26 00:16:14,210 - DEBUG - putting job #96 in the queue at alpha 0.01787
+2016-08-26 00:16:14,633 - DEBUG - putting job #97 in the queue at alpha 0.01780
+2016-08-26 00:16:14,942 - INFO - PROGRESS: at 28.32% examples, 32456 words/s
+2016-08-26 00:16:15,052 - DEBUG - putting job #98 in the queue at alpha 0.01773
+2016-08-26 00:16:15,508 - DEBUG - putting job #99 in the queue at alpha 0.01765
+2016-08-26 00:16:16,006 - DEBUG - putting job #100 in the queue at alpha 0.01758
+2016-08-26 00:16:16,468 - INFO - PROGRESS: at 29.21% examples, 32487 words/s
+2016-08-26 00:16:16,590 - DEBUG - putting job #101 in the queue at alpha 0.01750
+2016-08-26 00:16:17,055 - DEBUG - putting job #102 in the queue at alpha 0.01743
+2016-08-26 00:16:17,470 - DEBUG - putting job #103 in the queue at alpha 0.01735
+2016-08-26 00:16:17,758 - INFO - PROGRESS: at 30.11% examples, 32476 words/s
+2016-08-26 00:16:17,861 - DEBUG - putting job #104 in the queue at alpha 0.01728
+2016-08-26 00:16:18,374 - DEBUG - putting job #105 in the queue at alpha 0.01721
+2016-08-26 00:16:18,885 - DEBUG - putting job #106 in the queue at alpha 0.01713
+2016-08-26 00:16:19,300 - INFO - PROGRESS: at 31.00% examples, 32489 words/s
+2016-08-26 00:16:19,426 - DEBUG - putting job #107 in the queue at alpha 0.01706
+2016-08-26 00:16:19,833 - DEBUG - putting job #108 in the queue at alpha 0.01698
+2016-08-26 00:16:20,239 - DEBUG - putting job #109 in the queue at alpha 0.01691
+2016-08-26 00:16:20,700 - INFO - PROGRESS: at 31.90% examples, 32496 words/s
+2016-08-26 00:16:20,832 - DEBUG - putting job #110 in the queue at alpha 0.01684
+2016-08-26 00:16:21,340 - DEBUG - putting job #111 in the queue at alpha 0.01676
+2016-08-26 00:16:21,787 - DEBUG - putting job #112 in the queue at alpha 0.01669
+2016-08-26 00:16:22,163 - INFO - PROGRESS: at 32.79% examples, 32507 words/s
+2016-08-26 00:16:22,298 - DEBUG - putting job #113 in the queue at alpha 0.01661
+2016-08-26 00:16:22,876 - DEBUG - putting job #114 in the queue at alpha 0.01654
+2016-08-26 00:16:23,232 - INFO - PROGRESS: at 33.39% examples, 32498 words/s
+2016-08-26 00:16:23,366 - DEBUG - putting job #115 in the queue at alpha 0.01646
+2016-08-26 00:16:23,815 - DEBUG - putting job #116 in the queue at alpha 0.01639
+2016-08-26 00:16:24,263 - INFO - PROGRESS: at 33.98% examples, 32502 words/s
+2016-08-26 00:16:24,366 - DEBUG - putting job #117 in the queue at alpha 0.01632
+2016-08-26 00:16:24,956 - DEBUG - putting job #118 in the queue at alpha 0.01624
+2016-08-26 00:16:25,401 - INFO - PROGRESS: at 34.58% examples, 32514 words/s
+2016-08-26 00:16:25,556 - DEBUG - putting job #119 in the queue at alpha 0.01617
+2016-08-26 00:16:26,016 - DEBUG - putting job #120 in the queue at alpha 0.01609
+2016-08-26 00:16:26,435 - DEBUG - putting job #121 in the queue at alpha 0.01602
+2016-08-26 00:16:26,796 - INFO - PROGRESS: at 35.47% examples, 32497 words/s
+2016-08-26 00:16:26,899 - DEBUG - putting job #122 in the queue at alpha 0.01594
+2016-08-26 00:16:27,547 - DEBUG - putting job #123 in the queue at alpha 0.01587
+2016-08-26 00:16:27,945 - INFO - PROGRESS: at 36.07% examples, 32511 words/s
+2016-08-26 00:16:28,058 - DEBUG - putting job #124 in the queue at alpha 0.01580
+2016-08-26 00:16:28,529 - DEBUG - putting job #125 in the queue at alpha 0.01572
+2016-08-26 00:16:28,955 - DEBUG - putting job #126 in the queue at alpha 0.01565
+2016-08-26 00:16:29,345 - INFO - PROGRESS: at 36.96% examples, 32512 words/s
+2016-08-26 00:16:29,453 - DEBUG - putting job #127 in the queue at alpha 0.01557
+2016-08-26 00:16:29,922 - DEBUG - putting job #128 in the queue at alpha 0.01550
+2016-08-26 00:16:30,407 - DEBUG - putting job #129 in the queue at alpha 0.01543
+2016-08-26 00:16:30,753 - INFO - PROGRESS: at 37.86% examples, 32514 words/s
+2016-08-26 00:16:30,872 - DEBUG - putting job #130 in the queue at alpha 0.01535
+2016-08-26 00:16:31,312 - DEBUG - putting job #131 in the queue at alpha 0.01528
+2016-08-26 00:16:31,824 - DEBUG - putting job #132 in the queue at alpha 0.01520
+2016-08-26 00:16:32,207 - INFO - PROGRESS: at 38.75% examples, 32524 words/s
+2016-08-26 00:16:32,312 - DEBUG - putting job #133 in the queue at alpha 0.01513
+2016-08-26 00:16:32,815 - DEBUG - putting job #134 in the queue at alpha 0.01505
+2016-08-26 00:16:33,222 - INFO - PROGRESS: at 39.35% examples, 32526 words/s
+2016-08-26 00:16:33,340 - DEBUG - putting job #135 in the queue at alpha 0.01498
+2016-08-26 00:16:33,938 - DEBUG - putting job #136 in the queue at alpha 0.01491
+2016-08-26 00:16:34,245 - INFO - PROGRESS: at 39.94% examples, 32528 words/s
+2016-08-26 00:16:34,379 - DEBUG - putting job #137 in the queue at alpha 0.01483
+2016-08-26 00:16:34,787 - DEBUG - putting job #138 in the queue at alpha 0.01476
+2016-08-26 00:16:35,291 - DEBUG - putting job #139 in the queue at alpha 0.01468
+2016-08-26 00:16:35,666 - INFO - PROGRESS: at 40.84% examples, 32529 words/s
+2016-08-26 00:16:35,771 - DEBUG - putting job #140 in the queue at alpha 0.01461
+2016-08-26 00:16:36,340 - DEBUG - putting job #141 in the queue at alpha 0.01453
+2016-08-26 00:16:36,698 - INFO - PROGRESS: at 41.43% examples, 32536 words/s
+2016-08-26 00:16:36,804 - DEBUG - putting job #142 in the queue at alpha 0.01446
+2016-08-26 00:16:37,332 - DEBUG - putting job #143 in the queue at alpha 0.01439
+2016-08-26 00:16:37,770 - DEBUG - putting job #144 in the queue at alpha 0.01431
+2016-08-26 00:16:38,162 - INFO - PROGRESS: at 42.33% examples, 32549 words/s
+2016-08-26 00:16:38,251 - DEBUG - putting job #145 in the queue at alpha 0.01424
+2016-08-26 00:16:38,701 - DEBUG - putting job #146 in the queue at alpha 0.01416
+2016-08-26 00:16:39,130 - DEBUG - putting job #147 in the queue at alpha 0.01409
+2016-08-26 00:16:39,531 - INFO - PROGRESS: at 43.22% examples, 32560 words/s
+2016-08-26 00:16:39,639 - DEBUG - putting job #148 in the queue at alpha 0.01401
+2016-08-26 00:16:39,997 - DEBUG - putting job #149 in the queue at alpha 0.01394
+2016-08-26 00:16:40,449 - DEBUG - putting job #150 in the queue at alpha 0.01387
+2016-08-26 00:16:40,808 - INFO - PROGRESS: at 44.12% examples, 32554 words/s
+2016-08-26 00:16:40,907 - DEBUG - putting job #151 in the queue at alpha 0.01379
+2016-08-26 00:16:41,379 - DEBUG - putting job #152 in the queue at alpha 0.01372
+2016-08-26 00:16:41,766 - DEBUG - putting job #153 in the queue at alpha 0.01364
+2016-08-26 00:16:42,134 - INFO - PROGRESS: at 45.01% examples, 32550 words/s
+2016-08-26 00:16:42,246 - DEBUG - putting job #154 in the queue at alpha 0.01357
+2016-08-26 00:16:42,637 - DEBUG - putting job #155 in the queue at alpha 0.01350
+2016-08-26 00:16:43,169 - DEBUG - putting job #156 in the queue at alpha 0.01342
+2016-08-26 00:16:43,522 - INFO - PROGRESS: at 45.91% examples, 32558 words/s
+2016-08-26 00:16:43,626 - DEBUG - putting job #157 in the queue at alpha 0.01335
+2016-08-26 00:16:44,095 - DEBUG - putting job #158 in the queue at alpha 0.01327
+2016-08-26 00:16:44,522 - DEBUG - putting job #159 in the queue at alpha 0.01320
+2016-08-26 00:16:44,865 - INFO - PROGRESS: at 46.80% examples, 32560 words/s
+2016-08-26 00:16:44,982 - DEBUG - putting job #160 in the queue at alpha 0.01312
+2016-08-26 00:16:45,428 - DEBUG - putting job #161 in the queue at alpha 0.01305
+2016-08-26 00:16:45,930 - DEBUG - putting job #162 in the queue at alpha 0.01298
+2016-08-26 00:16:46,262 - INFO - PROGRESS: at 47.69% examples, 32556 words/s
+2016-08-26 00:16:46,390 - DEBUG - putting job #163 in the queue at alpha 0.01290
+2016-08-26 00:16:46,871 - DEBUG - putting job #164 in the queue at alpha 0.01283
+2016-08-26 00:16:47,290 - INFO - PROGRESS: at 48.29% examples, 32561 words/s
+2016-08-26 00:16:47,392 - DEBUG - putting job #165 in the queue at alpha 0.01275
+2016-08-26 00:16:47,893 - DEBUG - putting job #166 in the queue at alpha 0.01268
+2016-08-26 00:16:48,309 - INFO - PROGRESS: at 48.89% examples, 32562 words/s
+2016-08-26 00:16:48,440 - DEBUG - putting job #167 in the queue at alpha 0.01260
+2016-08-26 00:16:48,937 - DEBUG - putting job #168 in the queue at alpha 0.01253
+2016-08-26 00:16:49,371 - DEBUG - putting job #169 in the queue at alpha 0.01246
+2016-08-26 00:16:49,767 - INFO - PROGRESS: at 49.78% examples, 32560 words/s
+2016-08-26 00:16:49,864 - DEBUG - putting job #170 in the queue at alpha 0.01238
+2016-08-26 00:16:50,423 - DEBUG - putting job #171 in the queue at alpha 0.01231
+2016-08-26 00:16:50,774 - INFO - PROGRESS: at 50.38% examples, 32566 words/s
+2016-08-26 00:16:50,893 - DEBUG - putting job #172 in the queue at alpha 0.01223
+2016-08-26 00:16:51,420 - DEBUG - putting job #173 in the queue at alpha 0.01216
+2016-08-26 00:16:51,824 - DEBUG - putting job #174 in the queue at alpha 0.01208
+2016-08-26 00:16:52,192 - INFO - PROGRESS: at 51.27% examples, 32563 words/s
+2016-08-26 00:16:52,304 - DEBUG - putting job #175 in the queue at alpha 0.01201
+2016-08-26 00:16:52,790 - DEBUG - putting job #176 in the queue at alpha 0.01194
+2016-08-26 00:16:53,318 - DEBUG - putting job #177 in the queue at alpha 0.01186
+2016-08-26 00:16:53,728 - INFO - PROGRESS: at 52.17% examples, 32568 words/s
+2016-08-26 00:16:53,837 - DEBUG - putting job #178 in the queue at alpha 0.01179
+2016-08-26 00:16:54,278 - DEBUG - putting job #179 in the queue at alpha 0.01171
+2016-08-26 00:16:54,769 - DEBUG - putting job #180 in the queue at alpha 0.01164
+2016-08-26 00:16:55,194 - INFO - PROGRESS: at 53.06% examples, 32570 words/s
+2016-08-26 00:16:55,336 - DEBUG - putting job #181 in the queue at alpha 0.01157
+2016-08-26 00:16:55,755 - DEBUG - putting job #182 in the queue at alpha 0.01149
+2016-08-26 00:16:56,155 - DEBUG - putting job #183 in the queue at alpha 0.01142
+2016-08-26 00:16:56,528 - INFO - PROGRESS: at 53.95% examples, 32575 words/s
+2016-08-26 00:16:56,655 - DEBUG - putting job #184 in the queue at alpha 0.01134
+2016-08-26 00:16:57,215 - DEBUG - putting job #185 in the queue at alpha 0.01127
+2016-08-26 00:16:57,561 - INFO - PROGRESS: at 54.55% examples, 32578 words/s
+2016-08-26 00:16:57,660 - DEBUG - putting job #186 in the queue at alpha 0.01119
+2016-08-26 00:16:58,144 - DEBUG - putting job #187 in the queue at alpha 0.01112
+2016-08-26 00:16:58,723 - DEBUG - putting job #188 in the queue at alpha 0.01105
+2016-08-26 00:16:59,006 - INFO - PROGRESS: at 55.44% examples, 32562 words/s
+2016-08-26 00:16:59,133 - DEBUG - putting job #189 in the queue at alpha 0.01097
+2016-08-26 00:16:59,570 - DEBUG - putting job #190 in the queue at alpha 0.01090
+2016-08-26 00:17:00,066 - DEBUG - putting job #191 in the queue at alpha 0.01082
+2016-08-26 00:17:00,671 - INFO - PROGRESS: at 56.34% examples, 32570 words/s
+2016-08-26 00:17:00,770 - DEBUG - putting job #192 in the queue at alpha 0.01075
+2016-08-26 00:17:01,299 - DEBUG - putting job #193 in the queue at alpha 0.01067
+2016-08-26 00:17:01,771 - INFO - PROGRESS: at 56.94% examples, 32571 words/s
+2016-08-26 00:17:01,881 - DEBUG - putting job #194 in the queue at alpha 0.01060
+2016-08-26 00:17:02,326 - DEBUG - putting job #195 in the queue at alpha 0.01053
+2016-08-26 00:17:02,723 - DEBUG - putting job #196 in the queue at alpha 0.01045
+2016-08-26 00:17:03,071 - INFO - PROGRESS: at 57.83% examples, 32573 words/s
+2016-08-26 00:17:03,203 - DEBUG - putting job #197 in the queue at alpha 0.01038
+2016-08-26 00:17:03,625 - DEBUG - putting job #198 in the queue at alpha 0.01030
+2016-08-26 00:17:04,096 - DEBUG - putting job #199 in the queue at alpha 0.01023
+2016-08-26 00:17:04,429 - INFO - PROGRESS: at 58.72% examples, 32564 words/s
+2016-08-26 00:17:04,534 - DEBUG - putting job #200 in the queue at alpha 0.01016
+2016-08-26 00:17:05,072 - DEBUG - putting job #201 in the queue at alpha 0.01008
+2016-08-26 00:17:05,538 - DEBUG - putting job #202 in the queue at alpha 0.01001
+2016-08-26 00:17:05,922 - INFO - PROGRESS: at 59.62% examples, 32571 words/s
+2016-08-26 00:17:06,047 - DEBUG - putting job #203 in the queue at alpha 0.00993
+2016-08-26 00:17:06,483 - DEBUG - putting job #204 in the queue at alpha 0.00986
+2016-08-26 00:17:06,928 - DEBUG - putting job #205 in the queue at alpha 0.00978
+2016-08-26 00:17:07,312 - INFO - PROGRESS: at 60.51% examples, 32574 words/s
+2016-08-26 00:17:07,436 - DEBUG - putting job #206 in the queue at alpha 0.00971
+2016-08-26 00:17:07,951 - DEBUG - putting job #207 in the queue at alpha 0.00964
+2016-08-26 00:17:08,313 - INFO - PROGRESS: at 61.11% examples, 32573 words/s
+2016-08-26 00:17:08,451 - DEBUG - putting job #208 in the queue at alpha 0.00956
+2016-08-26 00:17:08,930 - DEBUG - putting job #209 in the queue at alpha 0.00949
+2016-08-26 00:17:09,316 - INFO - PROGRESS: at 61.70% examples, 32576 words/s
+2016-08-26 00:17:09,435 - DEBUG - putting job #210 in the queue at alpha 0.00941
+2016-08-26 00:17:09,987 - DEBUG - putting job #211 in the queue at alpha 0.00934
+2016-08-26 00:17:10,437 - INFO - PROGRESS: at 62.30% examples, 32578 words/s
+2016-08-26 00:17:10,566 - DEBUG - putting job #212 in the queue at alpha 0.00926
+2016-08-26 00:17:11,033 - DEBUG - putting job #213 in the queue at alpha 0.00919
+2016-08-26 00:17:11,498 - DEBUG - putting job #214 in the queue at alpha 0.00912
+2016-08-26 00:17:11,875 - INFO - PROGRESS: at 63.19% examples, 32578 words/s
+2016-08-26 00:17:11,985 - DEBUG - putting job #215 in the queue at alpha 0.00904
+2016-08-26 00:17:12,504 - DEBUG - putting job #216 in the queue at alpha 0.00897
+2016-08-26 00:17:12,943 - INFO - PROGRESS: at 63.79% examples, 32584 words/s
+2016-08-26 00:17:13,061 - DEBUG - putting job #217 in the queue at alpha 0.00889
+2016-08-26 00:17:13,517 - DEBUG - putting job #218 in the queue at alpha 0.00882
+2016-08-26 00:17:13,980 - DEBUG - putting job #219 in the queue at alpha 0.00874
+2016-08-26 00:17:14,344 - INFO - PROGRESS: at 64.69% examples, 32575 words/s
+2016-08-26 00:17:14,457 - DEBUG - putting job #220 in the queue at alpha 0.00867
+2016-08-26 00:17:14,934 - DEBUG - putting job #221 in the queue at alpha 0.00860
+2016-08-26 00:17:15,437 - DEBUG - putting job #222 in the queue at alpha 0.00852
+2016-08-26 00:17:15,825 - INFO - PROGRESS: at 65.58% examples, 32583 words/s
+2016-08-26 00:17:15,935 - DEBUG - putting job #223 in the queue at alpha 0.00845
+2016-08-26 00:17:16,427 - DEBUG - putting job #224 in the queue at alpha 0.00837
+2016-08-26 00:17:16,866 - DEBUG - putting job #225 in the queue at alpha 0.00830
+2016-08-26 00:17:17,187 - INFO - PROGRESS: at 66.47% examples, 32583 words/s
+2016-08-26 00:17:17,301 - DEBUG - putting job #226 in the queue at alpha 0.00823
+2016-08-26 00:17:17,754 - DEBUG - putting job #227 in the queue at alpha 0.00815
+2016-08-26 00:17:18,203 - INFO - PROGRESS: at 67.07% examples, 32584 words/s
+2016-08-26 00:17:18,328 - DEBUG - putting job #228 in the queue at alpha 0.00808
+2016-08-26 00:17:18,775 - DEBUG - putting job #229 in the queue at alpha 0.00800
+2016-08-26 00:17:19,214 - DEBUG - putting job #230 in the queue at alpha 0.00793
+2016-08-26 00:17:19,585 - INFO - PROGRESS: at 67.96% examples, 32585 words/s
+2016-08-26 00:17:19,705 - DEBUG - putting job #231 in the queue at alpha 0.00785
+2016-08-26 00:17:20,228 - DEBUG - putting job #232 in the queue at alpha 0.00778
+2016-08-26 00:17:20,609 - INFO - PROGRESS: at 68.56% examples, 32583 words/s
+2016-08-26 00:17:20,720 - DEBUG - putting job #233 in the queue at alpha 0.00771
+2016-08-26 00:17:21,057 - DEBUG - putting job #234 in the queue at alpha 0.00763
+2016-08-26 00:17:21,590 - DEBUG - putting job #235 in the queue at alpha 0.00756
+2016-08-26 00:17:21,940 - INFO - PROGRESS: at 69.45% examples, 32580 words/s
+2016-08-26 00:17:22,066 - DEBUG - putting job #236 in the queue at alpha 0.00748
+2016-08-26 00:17:22,513 - DEBUG - putting job #237 in the queue at alpha 0.00741
+2016-08-26 00:17:22,928 - DEBUG - putting job #238 in the queue at alpha 0.00733
+2016-08-26 00:17:23,449 - INFO - PROGRESS: at 70.35% examples, 32583 words/s
+2016-08-26 00:17:23,559 - DEBUG - putting job #239 in the queue at alpha 0.00726
+2016-08-26 00:17:24,089 - DEBUG - putting job #240 in the queue at alpha 0.00719
+2016-08-26 00:17:24,494 - INFO - PROGRESS: at 70.95% examples, 32582 words/s
+2016-08-26 00:17:24,612 - DEBUG - putting job #241 in the queue at alpha 0.00711
+2016-08-26 00:17:25,028 - DEBUG - putting job #242 in the queue at alpha 0.00704
+2016-08-26 00:17:25,491 - DEBUG - putting job #243 in the queue at alpha 0.00696
+2016-08-26 00:17:25,850 - INFO - PROGRESS: at 71.84% examples, 32581 words/s
+2016-08-26 00:17:25,969 - DEBUG - putting job #244 in the queue at alpha 0.00689
+2016-08-26 00:17:26,478 - DEBUG - putting job #245 in the queue at alpha 0.00682
+2016-08-26 00:17:26,911 - DEBUG - putting job #246 in the queue at alpha 0.00674
+2016-08-26 00:17:27,247 - INFO - PROGRESS: at 72.73% examples, 32583 words/s
+2016-08-26 00:17:27,371 - DEBUG - putting job #247 in the queue at alpha 0.00667
+2016-08-26 00:17:27,829 - DEBUG - putting job #248 in the queue at alpha 0.00659
+2016-08-26 00:17:28,315 - INFO - PROGRESS: at 73.33% examples, 32589 words/s
+2016-08-26 00:17:28,416 - DEBUG - putting job #249 in the queue at alpha 0.00652
+2016-08-26 00:17:28,957 - DEBUG - putting job #250 in the queue at alpha 0.00644
+2016-08-26 00:17:29,369 - INFO - PROGRESS: at 73.93% examples, 32595 words/s
+2016-08-26 00:17:29,489 - DEBUG - putting job #251 in the queue at alpha 0.00637
+2016-08-26 00:17:29,921 - DEBUG - putting job #252 in the queue at alpha 0.00630
+2016-08-26 00:17:30,330 - DEBUG - putting job #253 in the queue at alpha 0.00622
+2016-08-26 00:17:30,636 - INFO - PROGRESS: at 74.82% examples, 32589 words/s
+2016-08-26 00:17:30,737 - DEBUG - putting job #254 in the queue at alpha 0.00615
+2016-08-26 00:17:31,226 - DEBUG - putting job #255 in the queue at alpha 0.00607
+2016-08-26 00:17:31,714 - DEBUG - putting job #256 in the queue at alpha 0.00600
+2016-08-26 00:17:32,017 - INFO - PROGRESS: at 75.71% examples, 32591 words/s
+2016-08-26 00:17:32,148 - DEBUG - putting job #257 in the queue at alpha 0.00592
+2016-08-26 00:17:32,560 - DEBUG - putting job #258 in the queue at alpha 0.00585
+2016-08-26 00:17:33,011 - DEBUG - putting job #259 in the queue at alpha 0.00578
+2016-08-26 00:17:33,352 - INFO - PROGRESS: at 76.61% examples, 32589 words/s
+2016-08-26 00:17:33,473 - DEBUG - putting job #260 in the queue at alpha 0.00570
+2016-08-26 00:17:33,977 - DEBUG - putting job #261 in the queue at alpha 0.00563
+2016-08-26 00:17:34,391 - DEBUG - putting job #262 in the queue at alpha 0.00555
+2016-08-26 00:17:34,735 - INFO - PROGRESS: at 77.50% examples, 32593 words/s
+2016-08-26 00:17:34,852 - DEBUG - putting job #263 in the queue at alpha 0.00548
+2016-08-26 00:17:35,353 - DEBUG - putting job #264 in the queue at alpha 0.00540
+2016-08-26 00:17:35,761 - DEBUG - putting job #265 in the queue at alpha 0.00533
+2016-08-26 00:17:36,068 - INFO - PROGRESS: at 78.40% examples, 32593 words/s
+2016-08-26 00:17:36,199 - DEBUG - putting job #266 in the queue at alpha 0.00526
+2016-08-26 00:17:36,676 - DEBUG - putting job #267 in the queue at alpha 0.00518
+2016-08-26 00:17:37,154 - DEBUG - putting job #268 in the queue at alpha 0.00511
+2016-08-26 00:17:37,549 - INFO - PROGRESS: at 79.29% examples, 32587 words/s
+2016-08-26 00:17:37,665 - DEBUG - putting job #269 in the queue at alpha 0.00503
+2016-08-26 00:17:38,224 - DEBUG - putting job #270 in the queue at alpha 0.00496
+2016-08-26 00:17:38,676 - INFO - PROGRESS: at 79.89% examples, 32577 words/s
+2016-08-26 00:17:38,792 - DEBUG - putting job #271 in the queue at alpha 0.00489
+2016-08-26 00:17:39,343 - DEBUG - putting job #272 in the queue at alpha 0.00481
+2016-08-26 00:17:39,703 - INFO - PROGRESS: at 80.48% examples, 32572 words/s
+2016-08-26 00:17:39,821 - DEBUG - putting job #273 in the queue at alpha 0.00474
+2016-08-26 00:17:40,270 - DEBUG - putting job #274 in the queue at alpha 0.00466
+2016-08-26 00:17:40,779 - DEBUG - putting job #275 in the queue at alpha 0.00459
+2016-08-26 00:17:41,184 - INFO - PROGRESS: at 81.38% examples, 32572 words/s
+2016-08-26 00:17:41,291 - DEBUG - putting job #276 in the queue at alpha 0.00451
+2016-08-26 00:17:41,804 - DEBUG - putting job #277 in the queue at alpha 0.00444
+2016-08-26 00:17:42,268 - DEBUG - putting job #278 in the queue at alpha 0.00437
+2016-08-26 00:17:42,721 - INFO - PROGRESS: at 82.27% examples, 32571 words/s
+2016-08-26 00:17:42,842 - DEBUG - putting job #279 in the queue at alpha 0.00429
+2016-08-26 00:17:43,295 - DEBUG - putting job #280 in the queue at alpha 0.00422
+2016-08-26 00:17:43,771 - INFO - PROGRESS: at 82.87% examples, 32570 words/s
+2016-08-26 00:17:43,892 - DEBUG - putting job #281 in the queue at alpha 0.00414
+2016-08-26 00:17:44,428 - DEBUG - putting job #282 in the queue at alpha 0.00407
+2016-08-26 00:17:44,811 - INFO - PROGRESS: at 83.46% examples, 32566 words/s
+2016-08-26 00:17:44,930 - DEBUG - putting job #283 in the queue at alpha 0.00399
+2016-08-26 00:17:45,451 - DEBUG - putting job #284 in the queue at alpha 0.00392
+2016-08-26 00:17:45,828 - INFO - PROGRESS: at 84.06% examples, 32570 words/s
+2016-08-26 00:17:45,951 - DEBUG - putting job #285 in the queue at alpha 0.00385
+2016-08-26 00:17:46,489 - DEBUG - putting job #286 in the queue at alpha 0.00377
+2016-08-26 00:17:46,876 - INFO - PROGRESS: at 84.66% examples, 32571 words/s
+2016-08-26 00:17:47,034 - DEBUG - putting job #287 in the queue at alpha 0.00370
+2016-08-26 00:17:47,504 - DEBUG - putting job #288 in the queue at alpha 0.00362
+2016-08-26 00:17:47,877 - INFO - PROGRESS: at 85.25% examples, 32569 words/s
+2016-08-26 00:17:47,988 - DEBUG - putting job #289 in the queue at alpha 0.00355
+2016-08-26 00:17:48,470 - DEBUG - putting job #290 in the queue at alpha 0.00347
+2016-08-26 00:17:49,018 - INFO - PROGRESS: at 85.85% examples, 32567 words/s
+2016-08-26 00:17:49,136 - DEBUG - putting job #291 in the queue at alpha 0.00340
+2016-08-26 00:17:49,648 - DEBUG - putting job #292 in the queue at alpha 0.00333
+2016-08-26 00:17:50,118 - DEBUG - putting job #293 in the queue at alpha 0.00325
+2016-08-26 00:17:50,550 - INFO - PROGRESS: at 86.74% examples, 32564 words/s
+2016-08-26 00:17:50,668 - DEBUG - putting job #294 in the queue at alpha 0.00318
+2016-08-26 00:17:51,163 - DEBUG - putting job #295 in the queue at alpha 0.00310
+2016-08-26 00:17:51,572 - INFO - PROGRESS: at 87.34% examples, 32566 words/s
+2016-08-26 00:17:51,680 - DEBUG - putting job #296 in the queue at alpha 0.00303
+2016-08-26 00:17:52,187 - DEBUG - putting job #297 in the queue at alpha 0.00296
+2016-08-26 00:17:52,580 - INFO - PROGRESS: at 87.94% examples, 32563 words/s
+2016-08-26 00:17:52,706 - DEBUG - putting job #298 in the queue at alpha 0.00288
+2016-08-26 00:17:53,243 - DEBUG - putting job #299 in the queue at alpha 0.00281
+2016-08-26 00:17:53,585 - INFO - PROGRESS: at 88.53% examples, 32562 words/s
+2016-08-26 00:17:53,711 - DEBUG - putting job #300 in the queue at alpha 0.00273
+2016-08-26 00:17:54,124 - DEBUG - putting job #301 in the queue at alpha 0.00266
+2016-08-26 00:17:54,697 - DEBUG - putting job #302 in the queue at alpha 0.00258
+2016-08-26 00:17:55,017 - INFO - PROGRESS: at 89.43% examples, 32555 words/s
+2016-08-26 00:17:55,125 - DEBUG - putting job #303 in the queue at alpha 0.00251
+2016-08-26 00:17:55,643 - DEBUG - putting job #304 in the queue at alpha 0.00244
+2016-08-26 00:17:56,086 - DEBUG - putting job #305 in the queue at alpha 0.00236
+2016-08-26 00:17:56,536 - INFO - PROGRESS: at 90.32% examples, 32559 words/s
+2016-08-26 00:17:56,649 - DEBUG - putting job #306 in the queue at alpha 0.00229
+2016-08-26 00:17:57,080 - DEBUG - putting job #307 in the queue at alpha 0.00221
+2016-08-26 00:17:57,537 - DEBUG - putting job #308 in the queue at alpha 0.00214
+2016-08-26 00:17:57,886 - INFO - PROGRESS: at 91.22% examples, 32559 words/s
+2016-08-26 00:17:57,986 - DEBUG - putting job #309 in the queue at alpha 0.00206
+2016-08-26 00:17:58,462 - DEBUG - putting job #310 in the queue at alpha 0.00199
+2016-08-26 00:17:58,919 - DEBUG - putting job #311 in the queue at alpha 0.00192
+2016-08-26 00:17:59,302 - INFO - PROGRESS: at 92.11% examples, 32555 words/s
+2016-08-26 00:17:59,451 - DEBUG - putting job #312 in the queue at alpha 0.00184
+2016-08-26 00:17:59,843 - DEBUG - putting job #313 in the queue at alpha 0.00177
+2016-08-26 00:18:00,262 - DEBUG - putting job #314 in the queue at alpha 0.00169
+2016-08-26 00:18:00,673 - INFO - PROGRESS: at 93.00% examples, 32550 words/s
+2016-08-26 00:18:00,774 - DEBUG - putting job #315 in the queue at alpha 0.00162
+2016-08-26 00:18:01,396 - DEBUG - putting job #316 in the queue at alpha 0.00155
+2016-08-26 00:18:01,707 - INFO - PROGRESS: at 93.60% examples, 32550 words/s
+2016-08-26 00:18:01,825 - DEBUG - putting job #317 in the queue at alpha 0.00147
+2016-08-26 00:18:02,296 - DEBUG - putting job #318 in the queue at alpha 0.00140
+2016-08-26 00:18:02,721 - DEBUG - putting job #319 in the queue at alpha 0.00132
+2016-08-26 00:18:03,105 - INFO - PROGRESS: at 94.49% examples, 32554 words/s
+2016-08-26 00:18:03,224 - DEBUG - putting job #320 in the queue at alpha 0.00125
+2016-08-26 00:18:03,712 - DEBUG - putting job #321 in the queue at alpha 0.00117
+2016-08-26 00:18:04,103 - DEBUG - putting job #322 in the queue at alpha 0.00110
+2016-08-26 00:18:04,444 - INFO - PROGRESS: at 95.39% examples, 32556 words/s
+2016-08-26 00:18:04,567 - DEBUG - putting job #323 in the queue at alpha 0.00103
+2016-08-26 00:18:05,068 - DEBUG - putting job #324 in the queue at alpha 0.00095
+2016-08-26 00:18:05,478 - INFO - PROGRESS: at 95.98% examples, 32559 words/s
+2016-08-26 00:18:05,598 - DEBUG - putting job #325 in the queue at alpha 0.00088
+2016-08-26 00:18:06,013 - DEBUG - putting job #326 in the queue at alpha 0.00080
+2016-08-26 00:18:06,547 - DEBUG - putting job #327 in the queue at alpha 0.00073
+2016-08-26 00:18:06,965 - INFO - PROGRESS: at 96.88% examples, 32562 words/s
+2016-08-26 00:18:07,100 - DEBUG - putting job #328 in the queue at alpha 0.00065
+2016-08-26 00:18:07,581 - DEBUG - putting job #329 in the queue at alpha 0.00058
+2016-08-26 00:18:08,038 - DEBUG - putting job #330 in the queue at alpha 0.00051
+2016-08-26 00:18:08,461 - INFO - PROGRESS: at 97.77% examples, 32562 words/s
+2016-08-26 00:18:08,571 - DEBUG - putting job #331 in the queue at alpha 0.00043
+2016-08-26 00:18:09,112 - DEBUG - putting job #332 in the queue at alpha 0.00036
+2016-08-26 00:18:09,588 - DEBUG - putting job #333 in the queue at alpha 0.00028
+2016-08-26 00:18:09,890 - INFO - PROGRESS: at 98.67% examples, 32562 words/s
+2016-08-26 00:18:09,995 - DEBUG - putting job #334 in the queue at alpha 0.00021
+2016-08-26 00:18:10,406 - DEBUG - putting job #335 in the queue at alpha 0.00013
+2016-08-26 00:18:10,823 - INFO - reached end of input; waiting to finish 3 outstanding jobs
+2016-08-26 00:18:11,383 - INFO - PROGRESS: at 99.56% examples, 32571 words/s
+2016-08-26 00:18:12,023 - INFO - training on 5729114 raw words took 163.5s, 32577 trained words/s
+2016-08-26 00:18:12,024 - INFO - saving Word2Vec object under ../gensimModel/gensimModel, separately None
+2016-08-26 00:18:12,024 - INFO - not storing attribute syn0norm
+2016-08-26 00:18:12,024 - INFO - not storing attribute cum_table

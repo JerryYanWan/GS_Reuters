@@ -1,0 +1,24 @@
+#!/bin/bash
+# enable programmable completion features
+if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
+    . /etc/bash_completion
+fi
+
+export PS1='\u$ '
+export PATH=~/torch/install/bin:$PATH
+export CUDA_HOME=/usr/local/cuda-7.5
+export LD_LIBRARY_PATH=${CUDA_HOME}/lib64:/usr/lib/x86_64-linux-gnu:${LD_LIBRARY_PATH}
+export LD_LIBRARY_PATH=/home/ywanad/Downloads/openSMILE-2.2rc1/inst/lib:${LD_LIBRARY_PATH}
+export PATH=${CUDA_HOME}/bin:${PATH}
+export PATH=/home/ywanad/Downloads/openSMILE-2.2rc1/inst/bin:${PATH}
+export LS_OPTIONS='--color=auto'
+eval "`dircolors`"
+alias ls='ls $LS_OPTIONS'
+alias ll="ls -la"
+export LANG="en_US.UTF-8"
+export LC_ALL="C"
+
+
+export PYTHONPATH="/home/ywanad/Documents/YanWan/GS/Function":$PYTHONPATH
+export PYTHONPATH="/home/ywanad/Documents/YanWan/GS/reuters":$PYTHONPATH
+export PYTHONPATH="/home/ywanad/nltk_data":$PYTHONPATH
